@@ -6,7 +6,7 @@ export type TVariants = keyof typeof typography;
 
 export type TextProps = {
   children: ReactNode;
-  tag: keyof JSX.IntrinsicElements;
+  tag: keyof JSX.IntrinsicElements | any;
   variant: TVariants;
   className?: string;
   color?: Colors;
