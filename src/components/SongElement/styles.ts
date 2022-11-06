@@ -63,6 +63,7 @@ export const SongInfoFooter = styled.div`
 `;
 export const SongPlay = styled.div`
   & > svg {
+    color: ${({ theme }) => theme.color.grayscale900};
     width: 32px;
     height: 32px;
 
